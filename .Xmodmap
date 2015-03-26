@@ -1,0 +1,6 @@
+! Move pasting from middle-click to right-click (loses right-click menu)
+! NOTE: helpful with trackpoint which uses middle-click as scroll-enable
+pointer = 1 0 2
+
+! Turn 'Insert' key into a right-click substitute (for compact keyboards)
+!keycode 118 = Menu
