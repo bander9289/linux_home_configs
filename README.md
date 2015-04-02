@@ -8,3 +8,6 @@ git clone git@github.com:bander9289/linux_home_configs.git .
 
 ## Trackpoint middle click also pastes when scrolling
 .Xmodmap moves paste to right-click
+
+## Access unstable packages from debian as source to build
+sudo echo "deb-src http://http.debian.net/debian sid main contrib non-free" > /etc/apt/sources.list.d/unstable.list
