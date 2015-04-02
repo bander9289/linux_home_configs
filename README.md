@@ -11,3 +11,6 @@ git clone git@github.com:bander9289/linux_home_configs.git .
 
 ## Access unstable packages from debian as source to build
 sudo echo "deb-src http://http.debian.net/debian sid main contrib non-free" > /etc/apt/sources.list.d/unstable.list
+
+## Lock screen from i3
+Add 'bindsym Mod1+Control+l exec slock'  to ~/.i3status.conf
