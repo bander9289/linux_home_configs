@@ -2,5 +2,8 @@
 ! NOTE: helpful with trackpoint which uses middle-click as scroll-enable
 pointer = 1 0 2
 
-! Turn 'Insert' key into a right-click substitute (for compact keyboards)
-!keycode 118 = Menu
+! Map a key for right-click substitute (for compact keyboards)
+! 107 - PrtSc key
+! 118 - Insert key
+keycode 107 = Menu
+keycode 118 = Print
