@@ -1,0 +1,29 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "name": "browser",
+    "percent": 0.655208333333333,
+    "swallows": [
+       {
+        "class": "^Firefox$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "name": "Terminal",
+    "percent": 0.344791666666667,
+    "swallows": [
+       {
+        "class": "^X\\-terminal\\-emulator$",
+        "instance": "^x\\-terminal\\-emulator$",
+        "title": "^Terminal$"
+       }
+    ],
+    "type": "con"
+}
+
