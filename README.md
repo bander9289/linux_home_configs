@@ -1,7 +1,10 @@
 # Brandon Anderson's default config files that live in home directory of Linux.
 
 ```
-git clone git@github.com:bander9289/linux_home_configs.git .
+git init
+git remote add origin git@github.com:bander9289/linux_home_configs.git
+git fetch
+git checkout -t origin/master
 ```
 
 # Other setup notes
